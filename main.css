@@ -1,0 +1,20 @@
+.cir{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 200px auto;
+    border: 15px solid antiquewhite;
+    border-right: 15px solid blue;
+    animation-name: cir;
+    animation-duration: 1.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes cir {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
